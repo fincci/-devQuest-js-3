@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.contact {
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    background: url(../images/bg-repeat.jpg) center center repeat-x;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.contact .titles {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 300px;
+    gap: 10px;
+}
+
+.contact .titles h1 {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.contact .titles h2 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact .card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 378px;
+    gap: 15px;
+    padding: 20px 22px;
+    position: relative;
+}
+
+.contact .card .inpt .input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+}
+
+.contact .card .input.flagged {
+    border: 1px solid red;
+}
+
+.contact .card .input.pass {
+    border: 1px solid #3CCC87;
+}
+
+.contact .card .input.mensagem {
+    height: 100px;
+    resize: none;
+}
+
+.contact .card .input::placeholder {
+    color: #A8A8A8;
+}
+
+.contact .card .btn {
+    background-color: #3CCC87;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.contact .card p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact .card .mandatory {
+    color: red;
+    font-size: 8px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.contact .card .mandatory.hide {
+    display: none;
+}

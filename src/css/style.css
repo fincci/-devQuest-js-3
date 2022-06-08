@@ -99,15 +99,12 @@ body {
     border: none;
     border-radius: 5px;
     padding: 12px;
-    transition: .1s ease-in-out;
-}
-
-.contact .card .btn:hover {
-    transform: scale(1.02);
+    transition: .15s ease-in-out;
+    cursor: pointer;
 }
 
 .contact .card .btn:active {
-    transform: scale(0.98);
+    transform: scale(0.95);
 }
 
 .contact .card p {

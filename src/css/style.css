@@ -71,15 +71,15 @@ body {
     display: flex;
 }
 
-.contact .card .input.flagged {
+.contact .card .inpt .input.flagged {
     border: 1px solid red;
 }
 
-.contact .card .input.pass {
+.contact .card .inpt .input.pass {
     border: 1px solid #3CCC87;
 }
 
-.contact .card .input.mensagem {
+.contact .card .inpt .input.mensagem {
     height: 100px;
     resize: none;
 }
